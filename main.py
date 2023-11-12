@@ -22,6 +22,8 @@ screen.onkey(snake.face_south, "Down")
 screen.onkey(snake.face_east, "Right")
 screen.onkey(snake.face_west, "Left")
 
+new_thing = "hello"
+
 screen.update()
 
 while snake_is_hungry:
